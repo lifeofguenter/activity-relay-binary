@@ -20,6 +20,7 @@ archives:
         format: zip
     files:
       - none*
+
 checksum:
   name_template: 'checksums.txt'
 snapshot:
@@ -30,3 +31,8 @@ changelog:
     exclude:
       - '^docs:'
       - '^test:'
+
+release:
+  github:
+    owner: lifeofguenter
+    name: activity-relay-binary
