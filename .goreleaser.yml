@@ -1,5 +1,5 @@
 builds:
-  - dir: upstream
+  -
     env:
       - CGO_ENABLED=0
     goos:
